@@ -1,18 +1,8 @@
 /*====  RESET ============================ */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 a {
   text-decoration: none;
-}
-
-img {
-  width: 60%;
-  height: auto;
-  position: absolute;
 }
 
 /*====  VARIABLES ============================ */
@@ -56,9 +46,6 @@ h1 {
 }
 
 /*====  LAYOUT ============================ */
-#header {
-  height: 8.5rem;
-}
 
 nav {
   display: flex;
@@ -78,9 +65,19 @@ nav {
 }
 
 #header {
+  height: 8.5rem;
   border-bottom: 0.2rem solid #e4e4e4;
   margin-bottom: 6rem;
   display: flex;
+}
+
+  
+
+/*====  LOGO ============================ */
+
+#logohsa{
+  width: 14rem;
+  height: 5rem;
 }
 
 /*====  HOME ============================ */
@@ -99,11 +96,8 @@ nav {
   margin-bottom: 2rem;
 }
 
-#home .image {
-  position: relative;
-  margin-bottom: 2rem;
-}
 
+/*====  BUTTON ============================ */
 
 .button {
   font-family: inherit;
@@ -132,13 +126,6 @@ nav {
 
 /*====  botão início ============================ */
 
-.home {
-  font: 700 1rem 'Poppins', sans-serif;
-  color: rgb(79, 79, 80);
-  text-align: center;
-  margin: 2rem;
-}
-
 
 .menu ul a:hover {
   color: rgb(182, 181, 181);
@@ -155,13 +142,22 @@ nav {
 /*====  MEDIA QUERIES ============================ */
 /*extra large devices: 1025px — 1200px: Desktops, large screens */
 @media screen and (min-width: 1280px) {
-  img {
-    width: 20%;
-  }
+  
+/*====  LOGO ============================ */
+
+.section {
+margin: 30rem;
+}
+
+#logohsa{
+  width: 15rem;
+  height: 5rem;
+
+}
 
     #header {
-    margin-bottom: 11rem;
-    height: 8.5rem;
+    margin-bottom: -25rem;
+    height: 8rem;
     }
 
     .button {
@@ -171,14 +167,14 @@ nav {
       color: var(--text-color-light);
       display: inline-table;
       border-radius: 0.8rem;
-      width: 12.5rem;
-      height: 11.3rem;
-      font-size: 1.5rem;
+      width: 10rem;
+      height: 8rem;
+      font-size: 1.3rem;
       top: 0;
       text-decoration: none;
       border: 0rem solid #fff;
       transition: .3s;
-    }
+      }
 
     
     .button:hover {
@@ -192,18 +188,11 @@ nav {
       display: block;
       margin-bottom: 0.5rem;
       margin-top: 0.7rem;
-      font-size: 4rem;
+      font-size: 2.5rem;
       margin-left: auto;
       margin-right: auto;
     }
-
-    /*====  botão início ============================ */
-
-   .home {
-     font: 700 1.5rem 'Poppins', sans-serif;
-      margin: 3rem;
-     }
-
+    
 
   /*====  home ============================ */
 
@@ -212,37 +201,36 @@ nav {
     width: fit-content;
   }
 
-  #home .image {
-    order: 0;
-  }
-
   h1 {
-    order: 1;
-  }
-
-  .button {
-    order: 1;
-  }
-
-  .grid {
-    gap: 2rem;
-  }
-
-
+    font: 700 2.5rem 'Poppins', sans-serif;
+    color: rgb(79, 79, 80);
+    text-align: center;
+}
 }
 
 /*large devices: 769px — 1024px: Small screens, laptops */
 @media  screen and (max-width: 1280px) {
-  img {
-    width: 20%;
-  }
 
+  .section {
+    margin: 15rem;
+    }
+
+  #logohsa{
+    width: 12rem;
+    height: 4rem;
+  }
   
   #header {
-    margin-bottom: 6rem;
+    margin-bottom: -10rem;
     height: 5.5rem;
   }
 
+  h1 {
+    font: 700 1.8rem 'Poppins', sans-serif;
+    color: rgb(79, 79, 80);
+    text-align: center;
+  }
+  
   
   .button {
     margin: 0.5rem;
@@ -251,16 +239,16 @@ nav {
     color: var(--text-color-light);
     display: inline-table;
     border-radius: 0.7rem;
-    width: 7.8rem;
-    height: 7.3rem;
+    width: 7rem;
+    height: 6rem;
     font-size: 1rem;
-  }
+   }
 
   .button i {
     display: block;
     margin-bottom: 0.5rem;
     margin-top: 0.7rem;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -274,27 +262,5 @@ nav {
     margin: 2rem;
     }
 
-  /*====  home ============================ */
-
-  #home .container {
-    grid-auto-flow: column;
-    width: fit-content;
-  }
-
-  #home .image {
-    order: 0;
-  }
-
-  h1 {
-    order: 1;
-    font-size: 1.5rem;
-  }
-
-  .button {
-    order: 1;
-  }
-
-  .grid {
-    gap: 2rem;
-  }
+ 
 }

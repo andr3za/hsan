@@ -1,17 +1,16 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?4lmbhg');
-  src: url('fonts/icomoon.eot?4lmbhg#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?4lmbhg') format('truetype'),
-    url('fonts/icomoon.woff?4lmbhg') format('woff'),
-    url('fonts/icomoon.svg?4lmbhg#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1apegh');
+  src:  url('fonts/icomoon.eot?1apegh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1apegh') format('truetype'),
+    url('fonts/icomoon.woff?1apegh') format('woff'),
+    url('fonts/icomoon.svg?1apegh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^='icon-'],
-[class*=' icon-'] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -26,30 +25,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-hand-pointer-o:before {
-  content: '\e903';
-}
 .icon-mail:before {
-  content: '\e900';
+  content: "\e900";
 }
 .icon-settings_applications:before {
-  content: '\e901';
+  content: "\e901";
 }
 .icon-apps:before {
-  content: '\e902';
+  content: "\e902";
+}
+.icon-arrow-up:before {
+  content: "\e904";
 }
 .icon-spinner:before {
-  content: '\e97a';
+  content: "\e97a";
 }
 .icon-spinner2:before {
-  content: '\e97b';
+  content: "\e97b";
 }
 .icon-key:before {
-  content: '\e98d';
+  content: "\e98d";
 }
 .icon-cogs:before {
-  content: '\e995';
+  content: "\e995";
 }
 .icon-clipboard:before {
-  content: '\e9b8';
+  content: "\e9b8";
+}
+.icon-hand-pointer-o:before {
+  content: "\e903";
+}
+.icon-banknote:before {
+  content: "\e800";
+}
+.icon-check:before {
+  content: "\e800";
+}
+.icon-bill:before {
+  content: "\e800";
+}
+.icon-money:before {
+  content: "\e800";
+}
+.icon-cash:before {
+  content: "\e800";
 }

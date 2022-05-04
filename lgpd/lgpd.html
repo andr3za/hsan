@@ -11,13 +11,13 @@
 
   <header id="header">
     <nav class="container">
-      <img src="..\assets\fotos\10.png">
+        <a href="../index.html"><img id="logohsa" src="..\assets\fotos\10.png" alt="logo"></a>
       <!-- menu -->
       <div class="menu">
         <ul class="grid">
           <li><a class="title" href="#home">Início</a></li>
-          <li><a class="title" href="#about">Sobre</a></li>
-          <li><a class="title" href="#services">Serviços</a></li>
+          <li><a class="title" href="#section2">Como assim?</a></li>
+          <li><a class="title" href="#section3">O que?</a></li>
           <li><a class="title" href="#testimonials">Depoimentos</a></li>
           <li><a class="title" href="#contact">Contato</a></li>
         </ul>
@@ -27,25 +27,105 @@
       <div class="toggle icon-close"></div>
     </nav>
   </header>
+  <main>
+  <!-- HOME -->
+    <section class="section" id="home">
+      <div class="container grid">
+        <div class="image direita">
+          <img 
+            src="assets/images/voce.gif"
+            alt="Você"
+            width="300"
+          />
+        </div>
+        <div class="text">
+          <h2 class="title">LGPD</h2>
+            <p>
+              Isso diz respeito a você, nossos pacientes e parceiros! 
+              <br>
+              <p align="center"><span style='font-size:80px;'>🙅</span></p>
+            </p>
+        </div>
+      </div>
+    </section>
 
-    <main>
-        <!-- HOME -->
-        <section class="section" id="home">
-            <div class="container grid">
-              <div class="image">
-                <video width="800" height="500" controls autoplay>
-                  <source src="http://cloud.hsan.com.br/index.php/s/6GGxRbSQgpYWzqp/download" type="video/mp4">
-                </video>
-              </div>
-              <div class="text">
-                <h2 class="title">LGPD: a lei que protege seus dados</h2>
-                <p>
-                    A LGPD visa proteger os direitos de liberdade e de privacidade, criando normas a serem seguidas por empresas e governos para a coleta e o tratamento de dados pessoais (como nome, CPF, endereço) e de dados sensíveis (como biometria e informações sobre política e religião).
-                </p>
-                <a class="button" href="#">Agendar um horário</a>
-              </div>
-            </div>
-          </section>
-    </main>
+    <section class="section" id="section2">
+      <div class="container grid">
+        <div class="image">
+          <img 
+            src="assets/images/como_assim.gif"
+            alt="Como Assim?"
+            width="400"
+          />
+        </div>
+        <div class="text">
+          <h2 class="title">Como assim ? 😶</h2>
+            <p>
+              Vamos a um exemplo:
+              Quando você é atendido no hospital você informa seu nome, CPF, onde você mora, e outras informações, certo?! E seu cadastro está vinculado ao seu prontuário que fala sobre sua saúde.<br>
+              Essas informações podem ser acessadas apenas por pessoas autorizadas. <br>
+              Mais ninguém tem o direito de acessar seus dados, pois são SEUS.
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section3">
+      <div class="container grid">
+        <div class="image direita">
+          <img 
+            src="assets/images/que.gif"
+            alt="O que?"
+            width="400"
+          />
+        </div>
+        <div class="text">
+          <h2 class="title">E se fossem seus dados?</h2>
+            <p>
+              Você gostaria que alguém acessasse seu prontuário indevidamente e descobrisse que você tem uma doença grave ? 🤒🤕
+              Acessar os dados dos pacientes que não possuem autorização é uma irregularidade à LGPD. 
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="home">
+      <div class="container grid">
+        <div class="image esquerda">
+          <img 
+            src="assets/images/lei.gif"
+            alt="Como Assim?"
+            width="400"
+          />
+        </div>
+        <div class="text">
+          <h2 class="title">Afinal, o que é a LGPD ? 🤔</h2>
+            <p>
+              A Lei Geral de Proteção de Dados (LGPD), é uma regulamentação sobre o tratamento de dados pessoais pelas empresas. 
+              Ou seja, veio para garantir o direito à privacidade e proteção de dados dos usuários. 🔒
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section class="section" id="about">
+        <div class="container grid">
+          <p>Entenda melhor no vídeo para não cometer nenhuma infração à Lei (e ser penalizado) 😱</p>
+          <div class="video">
+            <video controls autoplay>
+              <source src="http://cloud.hsan.com.br/index.php/s/6GGxRbSQgpYWzqp/download" type="video/mp4">
+            </video>
+        </div>
+      </section>
+  </main>
+
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- main.js -->
+  <script src="main.js"></script>
+  
 </body>
 </html>
