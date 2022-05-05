@@ -11,7 +11,7 @@
 
 /*====  VARIABLES ============================ */
 :root {
-  --header-height: 5.5rem;
+  --header-height: 4.5rem;
 
   /* colors */
   --hue: 229;
@@ -36,6 +36,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/*====  BASE ============================ */
+
 body {
   font: 400 1rem var(--body-font);
   color: var(--text-color);
@@ -47,8 +49,8 @@ body {
   font: 700 var(--title-font-size) var(--title-font);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
-}
 
+}
 
 .divider-1 {
   height: 1px;
@@ -69,6 +71,7 @@ body {
 }
 
 /*=== Layout ======*/
+
 .container {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -131,15 +134,16 @@ nav {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-}
+  }
 
 nav ul li {
   text-align: center;
-}
+  }
 
 nav ul li a {
   transition: color 0.2s;
   position: relative;
+  text-decoration: none;
 }
 
 nav ul li a:hover,
@@ -245,8 +249,8 @@ nav.show div.icon-close {
   width: 100%;
   background: var(--base-color-second);
   position: absolute;
-  top: -8%;
-  left: 16.5%;
+  top: -17%;
+  left: 12.5%;
   z-index: 0;
 }
 
@@ -261,18 +265,21 @@ nav.show div.icon-close {
 }
 
 #home .text {
-  margin-left: 1.5rem;
+  margin-left: 5rem;
   margin-right: 1.5rem;
-  text-align: justify;
+
 }
 
 #home .text h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
+ text-align: center;
 }
 
 #home .text p {
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
+  align-items: center;
 }
+
 
 /*====  Section2 ============================ */
 #section2 {
@@ -293,8 +300,8 @@ nav.show div.icon-close {
   width: 100%;
   background: var(--base-color-second);
   position: absolute;
-  top: -8.3%;
-  left: -33%;
+  top: -17%;
+  left: -20%;
   z-index: 0;
 }
 
@@ -308,9 +315,132 @@ nav.show div.icon-close {
 }
 
 #section2 .text {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 8rem;
+  margin-right: 10rem;
+  text-align: center;
 }
+
+#section2 .text h1 {
+  margin-bottom: 1.2rem;
+  align-items: center;
+}
+
+#section2 .text p {
+  margin-bottom: 1.2rem;
+  align-items: center;
+  text-align: justify;
+}
+
+/*====  Section3 ============================ */
+
+#section3 {
+  background: white;
+}
+
+#section3 .container {
+  margin: 0;
+}
+
+#section3 .image {
+  position: relative;
+}
+
+#section3 .image::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: var(--base-color-second);
+  position: absolute;
+  top: -17%;
+  left: 255%;
+  z-index: 0;
+}
+
+#section3 .image img {
+  position: relative;
+  right: -58rem;
+ }
+
+#section3 .image img {
+  position: relative;
+}
+
+#section3 .image img,
+#section3 .image::before {
+  border-radius: 0.25rem;
+}
+
+#section3 .text {
+  margin-left: -10rem;
+  margin-right: 22rem;
+  text-align: center;
+}
+
+#section3 .text h1 {
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+#section3 .text p {
+  margin-bottom: 1.2rem;
+  align-items: center;
+  text-align: justify;
+}
+
+
+/*====  Section4 ============================ */
+#section4 {
+  background: white;
+}
+
+#section4 .container {
+  margin: 0;
+}
+
+#section4 .image {
+  position: relative;
+  right: -15rem;
+}
+
+#section4 .image::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: var(--base-color-second);
+  position: absolute;
+  top: -17%;
+  left: -20%;
+  z-index: 0;
+}
+
+#section4 .image img {
+  position: relative;
+}
+
+#section4 .image img,
+#section4 .image::before {
+  border-radius: 0.25rem;
+}
+
+#section4 .text {
+  margin-left: 24rem;
+  margin-right: -8rem;
+  text-align: center;
+}
+
+#section4 .text h1 {
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+#section4 .text p {
+  margin-bottom: 1.2rem;
+  align-items: center;
+  text-align: justify;
+}
+
+
+
 
 /*========= MEDIA QUERIES =========*/
 /* extra large devices: 1200 > */

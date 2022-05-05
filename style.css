@@ -65,12 +65,17 @@ nav {
 }
 
 #header {
-  height: 8.5rem;
-  border-bottom: 0.2rem solid #e4e4e4;
-  margin-bottom: 6rem;
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 2rem;
   display: flex;
-}
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: var(--body-color);
+  width: 100%;
+}
   
 
 /*====  LOGO ============================ */
@@ -146,12 +151,13 @@ nav {
 /*====  LOGO ============================ */
 
 .section {
-margin: 30rem;
+margin: 10rem 30rem;
 }
 
 #logohsa{
-  width: 15rem;
-  height: 5rem;
+  width: 17rem;
+  height: 6rem;
+  margin: 23rem;
 
 }
 
@@ -212,17 +218,18 @@ margin: 30rem;
 @media  screen and (max-width: 1280px) {
 
   .section {
-    margin: 15rem;
+    margin: 7rem 15rem;
     }
 
-  #logohsa{
-    width: 12rem;
-    height: 4rem;
-  }
+    #logohsa{
+      width: 14rem;
+      height: 5rem;
+      margin: 11rem;
+    }
   
   #header {
     margin-bottom: -10rem;
-    height: 5.5rem;
+    height: 6rem;
   }
 
   h1 {
@@ -253,14 +260,4 @@ margin: 30rem;
     margin-right: auto;
   }
 
-   /*====  botão início ============================ */
-
-   .home {
-    font: 700 1rem 'Poppins', sans-serif;
-    color: rgb(79, 79, 80);
-    text-align: center;
-    margin: 2rem;
-    }
-
- 
 }
