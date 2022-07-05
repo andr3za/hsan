@@ -6,6 +6,7 @@
 Projeto intranet Hospital Santo Antonio de Blumenau
 
 ✨ Tecnologias
+
  React Native
  Typescript
  Expo
@@ -22,6 +23,7 @@ Projeto intranet Hospital Santo Antonio de Blumenau
  Expo Authentication
  React Native Share
  Deep Link
+ 
 🛠️ Features
  Autenticação Social OAuth2 com servidor do Discord.
  Obtém perfil do usuário cadastro no Discord (username e avatar);
@@ -32,5 +34,6 @@ Projeto intranet Hospital Santo Antonio de Blumenau
  Compartilha o convite para ingressar no servidor do usuário;
  Permite redirecionar o usuário para o seu próprio servidor;
  Disponibiliza a função de Logout.
+ 
 🔖 Layout
 Você pode visualizar o layout do projeto através desse link. É necessário ter conta no Figma para acessá-lo.
